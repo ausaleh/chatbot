@@ -1,2 +1,2 @@
-email ="sadiqsalehusman@hotmail.com"
-password="ibrahim"
+email =""
+password=""
