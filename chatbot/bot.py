@@ -7,7 +7,7 @@ class bnaffan(Client):
 
     # Connect to dialogflow
     def apiaiCon(self):
-        self.CLIENT_ACCESS_TOKEN = "9c4d1cd282e64a65b0ab29f785d3bb33"
+        self.CLIENT_ACCESS_TOKEN = ""
         self.ai = apiai.ApiAI(self.CLIENT_ACCESS_TOKEN)
         self.request = self.ai.text_request()
         self.request.lang = 'de' #Default : English
